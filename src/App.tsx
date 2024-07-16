@@ -9,7 +9,7 @@ const App = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/reactapplive">
               <img src={logo} alt="" className="" width="200" />
             </Link>
             <button
@@ -55,8 +55,8 @@ const App = () => {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/users" element={<UserList />}></Route>
+          <Route path="/reactapplive" element={<Home />}></Route>
+          <Route path="/reactapplive/users" element={<UserList />}></Route>
         </Routes>
       </div>
     </>
